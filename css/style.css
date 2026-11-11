@@ -120,6 +120,7 @@ h1, h2, h3 { font-family: 'Archivo', sans-serif; font-weight: 800; margin: 0; }
 .book-form { flex: 1 1 420px; min-width: 0; background: #FFFFFF; color: var(--dark); border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px; }
 .hidden-field { display: none; }
 .form-field { display: flex; flex-direction: column; gap: 6px; flex: 1 1 180px; }
+.book-form > .form-field { flex: 0 1 auto; }
 .form-field label { font-weight: 600; font-size: 16px; }
 .form-field input { font: inherit; font-size: 17px; padding: 12px 14px; border: 1px solid #A9B4BF; border-radius: 8px; min-height: 44px; box-sizing: border-box; }
 .form-row { display: flex; flex-wrap: wrap; gap: 16px; }
