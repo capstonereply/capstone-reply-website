@@ -87,8 +87,8 @@ h1, h2, h3 { font-family: 'Archivo', sans-serif; font-weight: 800; margin: 0; }
 .try-it-card { background: var(--light); border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 18px; align-items: flex-start; }
 .try-it-card p { margin: 0; color: var(--body); font-size: 18px; max-width: 760px; }
 
-.calc-row { padding: 80px 24px; display: flex; flex-wrap: wrap; gap: 40px; align-items: stretch; }
-.calc-col { flex: 1 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 16px; justify-content: center; }
+.calc-row { padding: 80px 24px; display: flex; flex-wrap: wrap; gap: 40px; align-items: stretch; justify-content: center; }
+.calc-col { flex: 0 1 560px; max-width: 560px; min-width: 0; display: flex; flex-direction: column; gap: 16px; justify-content: center; }
 .calc-intro { margin: 0; color: var(--body); }
 .calc-card { display: flex; flex-direction: column; gap: 22px; background: #FFFFFF; border: 1px solid var(--border); border-radius: 14px; padding: 26px; margin-top: 4px; }
 .calc-field { display: flex; flex-direction: column; gap: 10px; }
